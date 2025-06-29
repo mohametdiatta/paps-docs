@@ -1,0 +1,1 @@
+import{r as e}from"./index-D4H_InIO.js";function n(t="",f=!1){const[s,o]=e.useState(f),l=e.useCallback(()=>o(r=>!r),[]),a=e.useCallback(()=>o(!0),[]),u=e.useCallback(()=>o(!1),[]);return t?{[`${t}Value`]:s,[`${t}On`]:a,[`${t}Off`]:u,[`${t}Toggle`]:l}:{value:s,on:a,off:u,toggle:l}}export{n as u};

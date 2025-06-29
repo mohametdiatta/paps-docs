@@ -1,0 +1,1 @@
+const s=(n,t,o,r)=>String(n[o]).toLowerCase().includes(t);function u(n,t,o){const r=e=>Object.keys(e).some(c=>e[c]!==null&&typeof e[c]=="object"?r(e[c]):s(e,t,c));return n==null?void 0:n.filter(e=>r(e))}export{u as m};
